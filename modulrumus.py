@@ -6,7 +6,7 @@ def omega(g,l):
 
 def periode(g,l):
     a = g/l
-    omega  = math.sqrt(a)
+    omega  = math.sqrt(1/a)
     pi = math.pi
     T = 2 *  pi * omega
     return T

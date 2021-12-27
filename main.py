@@ -29,3 +29,4 @@ for i in range(1000):
     teks2 = ("%0.2f" %t,xt,yt,vt,at)
     tulisdata.writerow(teks2)
     t = t + 0.1
+
